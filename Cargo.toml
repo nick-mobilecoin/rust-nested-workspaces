@@ -5,5 +5,9 @@ members = [
     "container",
 ]
 
+exclude = [
+    "container/nested",
+]
+
 [workspace.package]
 rust-version = "1.68.0"
