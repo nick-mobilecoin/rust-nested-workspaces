@@ -1,0 +1,16 @@
+version: 2
+updates:
+- package-ecosystem: cargo
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "22:00"
+    timezone: "America/Los_Angeles"
+  open-pull-requests-limit: 5
+- package-ecosystem: cargo
+  directory: "/nested/"
+  schedule:
+    interval: daily
+    time: "23:00"
+    timezone: "America/Los_Angeles"
+  open-pull-requests-limit: 2
