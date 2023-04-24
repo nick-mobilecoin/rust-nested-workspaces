@@ -1,6 +1,7 @@
 [workspace]
 members = [
-    common,
+    "common",
+    "root-bin",
 ]
 
 [workspace.package]
