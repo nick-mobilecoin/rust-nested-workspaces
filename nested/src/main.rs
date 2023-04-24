@@ -1,3 +1,5 @@
+use common::common_function;
 fn main() {
-    println!("Hello, world!");
+    println!("in nested workspace");
+    common_function();
 }
