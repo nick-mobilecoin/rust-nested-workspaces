@@ -1,5 +1,5 @@
 use common::common_function;
-fn main() {
+fn lib_function() {
     println!("in nested workspace");
     common_function();
 }

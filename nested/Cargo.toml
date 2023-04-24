@@ -10,3 +10,6 @@ rust-version = "1.68.0"
 
 [dependencies]
 common = { path = "../common" }
+
+[lib]
+rust-version = { workspace = true }
