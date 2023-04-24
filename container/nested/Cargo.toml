@@ -9,7 +9,7 @@ rust-version = "1.68.0"
  
 
 [dependencies]
-common = { path = "../common" }
+common = { path = "../../common" }
 
 [lib]
 crate-type = ["staticlib"]
