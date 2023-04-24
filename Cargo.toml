@@ -1,6 +1,6 @@
 [workspace]
 members = [
-    "common",
+    "common_container/common",
     "root-bin",
     "container",
 ]
